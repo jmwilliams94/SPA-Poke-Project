@@ -5,11 +5,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/mustard-ui@latest/dist/css/mustard-ui.min.css">
+    <title>PokeDex</title>
 </head>
 
+<img src="images/PngItem_24215.pn" alt="Pokemon Logo">
+
 <body>
+    <h1>PokeDex</h1>
+    <!-- Row of Buttons/Searchbar -->
+    <div class="row pokeselection">
+        <div class="col col-lg-3 form-control">
+            <input type="text" placeholder="Search Pokemon">
+        </div>
+        <div class="col col-lg-3">
+            <select class="genselector" name="Generation">
+                <option value="Generation 1">Generation 1</option>
+                <option value="Generation 2">Generation 2</option>
+                <option value="Generation 3">Generation 3</option>
+                <option value="Generation 4">Generation 4</option>
+                <option value="Generation 5">Generation 5</option>
+                <option value="Generation 6">Generation 6</option>
+                <option value="Generation 7">Generation 7</option>
+            </select>
+        </div>
+        <div class="col col-lg-3">
+            <select class="type1selector" name="Type 1 Selector">
+                <option value="1st Type">1st Type</option>
+                <option value="Normal">Normal</option>
+                <option value="Fire">Fire</option>
+                <option value="Water">Water</option>
+                <option value="Electric">Electric</option>
+                <option value="Grass">Grass</option>
+                <option value="Ice">Ice</option>
+                <option value="Fighting">Fighting</option>
+                <option value="Poison">Poison</option>
+                <option value="Ground">Ground</option>
+                <option value="Flying">Flying</option>
+                <option value="Psychic">Psychic</option>
+                <option value="Bug">Bug</option>
+                <option value="Rock">Rock</option>
+                <option value="Ghost">Ghost</option>
+                <option value="Dragon">Dragon</option>
+                <option value="Dark">Dark</option>
+                <option value="Steel">Steel</option>
+                <option value="Fairy">Fairy</option>
+            </select>
+        </div>
+        <div class="col col-lg-3">
+            <select class="type1selector" name="Type 1 Selector">
+                <option value="2nd Type">2nd Type</option>
+                <option value="Normal">Normal</option>
+                <option value="Fire">Fire</option>
+                <option value="Water">Water</option>
+                <option value="Electric">Electric</option>
+                <option value="Grass">Grass</option>
+                <option value="Ice">Ice</option>
+                <option value="Fighting">Fighting</option>
+                <option value="Poison">Poison</option>
+                <option value="Ground">Ground</option>
+                <option value="Flying">Flying</option>
+                <option value="Psychic">Psychic</option>
+                <option value="Bug">Bug</option>
+                <option value="Rock">Rock</option>
+                <option value="Ghost">Ghost</option>
+                <option value="Dragon">Dragon</option>
+                <option value="Dark">Dark</option>
+                <option value="Steel">Steel</option>
+                <option value="Fairy">Fairy</option>
+            </select>
+        </div>
+    </div>
+    <!-- Collection of selected pokemon -->
+    <div>All pokemon selected here</div>
 
 </body>
+
+<footer>
+    Developed by Jordan Williams 2022.
+</footer>
 
 </html>

@@ -1,9 +1,43 @@
+.body {
+    background-color: lightgrey;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.card {
+    list-style: none;
+    padding: 40px;
+    text-align: center;
+}
+
 .pokelogo {
     display: block;
     margin-left: auto;
     margin-right:auto;
     width: 50%;
 }
+
+#pokedex {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.card-title {
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 0px;
+}
+
+.type-sub {
+    font-weight: lighter;
+    margin-top: 5px;
+}
+
+.card-image {
+    height: 180px;
+}
+/* Type input colors */
 .normal {
     color: #9f9f8f;
 }

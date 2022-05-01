@@ -123,19 +123,19 @@ selector.addEventListener('change', (event) => {
   return true;
 });
 
-typeOne.addEventListener('change', (e) => {
-  const typeOneValue = e.target.value;
+// typeOne.addEventListener('change', (e) => {
+//   const typeOneValue = e.target.value;
 
-  if (selector.value === 'gen1') {
-    return genOnePokemon(typeOneValue);
-  }
-  if (selector.value === 'gen2') {
-    return genTwoPokemon(typeOneValue);
-  }
-  if (selector.value === 'gen3') {
-    return genThreePokemon(typeOneValue);
-  }
-});
+//   if (selector.value === 'gen1') {
+//     return genOnePokemon(typeOneValue);
+//   }
+//   if (selector.value === 'gen2') {
+//     return genTwoPokemon(typeOneValue);
+//   }
+//   if (selector.value === 'gen3') {
+//     return genThreePokemon(typeOneValue);
+//   }
+// });
 
 function loopCards() {
   for (let i = 0; i <= 385; i++) {}
@@ -160,6 +160,7 @@ function searchPokemon(event) {
   });
 }
 searchInput.addEventListener('keyup', searchPokemon);
+
 // searchPokemon();
 // backgroundColour.addEventListener('change', event => {
 //   if (backgroundColour.indexOf(colour)  )

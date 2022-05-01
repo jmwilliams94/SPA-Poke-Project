@@ -12,6 +12,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Lato&family=Libre+Baskerville&family=Montserrat:wght@300;700&display=swap"
         rel="stylesheet">
+
     <script defer src="./js/index.js"></script>
     <title>PokeDex</title>
 </head>
@@ -23,36 +24,36 @@
     <!-- Row of Buttons/Searchbar -->
     <div class="row pokeselection">
         <div class="col col-lg-3 form-control">
-            <input type="text" placeholder="Search Pokemon">
+            <input type="text" id="search" placeholder="Search Pokemon">
         </div>
         <div class="col col-lg-3">
-            <select class="genselector" name="Generation">
-                <option value="Generation 1">Generation 1</option>
-                <option value="Generation 2">Generation 2</option>
-                <option value="Generation 3">Generation 3</option>
+            <select id="genselector" name="Generation">
+                <option value="gen1">Generation 1</option>
+                <option value="gen2">Generation 2</option>
+                <option value="gen3">Generation 3</option>
             </select>
         </div>
         <div class="col col-lg-3">
-            <select class="type1selector" name="Type 1 Selector">
-                <option value="1st Type">1st Type</option>
-                <option value="Normal" class="normal">Normal</option>
-                <option value="Fire" class="fire">Fire</option>
-                <option value="Water" class="water">Water</option>
-                <option value="Electric" class="electric">Electric</option>
-                <option value="Grass" class="grass">Grass</option>
-                <option value="Ice" class="ice">Ice</option>
-                <option value="Fighting" class="fighting">Fighting</option>
-                <option value="Poison" class="poison">Poison</option>
-                <option value="Ground" class="ground">Ground</option>
-                <option value="Flying" class="flying">Flying</option>
-                <option value="Psychic" class="psychic">Psychic</option>
-                <option value="Bug" class="bug">Bug</option>
-                <option value="Rock" class="rock">Rock</option>
-                <option value="Ghost" class="ghost">Ghost</option>
-                <option value="Dragon" class="dragon">Dragon</option>
-                <option value="Dark" class="dark">Dark</option>
-                <option value="Steel" class="steel">Steel</option>
-                <option value="Fairy" class="fairy">Fairy</option>
+            <select id="type1selector" class=" type1selector" name="Type 1 Selector">
+                <option type="text" value="all">1st Type</option>
+                <option type="text" value="Normal" class="normal">Normal</option>
+                <option type="text" value="Fire" class="fire">Fire</option>
+                <option type="text" value="Water" class="water">Water</option>
+                <option type="text" value="Electric" class="electric">Electric</option>
+                <option type="text" value="Grass" class="grass">Grass</option>
+                <option type="text" value="Ice" class="ice">Ice</option>
+                <option type="text" value="Fighting" class="fighting">Fighting</option>
+                <option type="text" value="Poison" class="poison">Poison</option>
+                <option type="text" value="Ground" class="ground">Ground</option>
+                <option type="text" value="Flying" class="flying">Flying</option>
+                <option type="text" value="Psychic" class="psychic">Psychic</option>
+                <option type="text" value="Bug" class="bug">Bug</option>
+                <option type="text" value="Rock" class="rock">Rock</option>
+                <option type="text" value="Ghost" class="ghost">Ghost</option>
+                <option type="text" value="Dragon" class="dragon">Dragon</option>
+                <option type="text" value="Dark" class="dark">Dark</option>
+                <option type="text" value="Steel" class="steel">Steel</option>
+                <option type="text" value="Fairy" class="fairy">Fairy</option>
             </select>
         </div>
         <div class="col col-lg-3">

@@ -1,7 +1,29 @@
-.body {
-    background-color: lightgrey;
+body {
+    /* background-color: lightgrey; */
+    background-color: #FAF9F6;
     margin: 0;
     font-family: 'Lato', sans-serif;
+}
+ol li {
+
+}
+
+.pill {
+    /* width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20%; */
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    border-radius: 16px;
 }
 
 .card {
@@ -23,7 +45,7 @@
 }
 
 .card-title {
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-size: 32px;
     font-weight: normal;
     margin-bottom: 0px;
@@ -32,63 +54,89 @@
 .type-sub {
     font-weight: lighter;
     margin-top: 5px;
+    text-transform: capitalize;
 }
 
 .card-image {
-    height: 180px;
+    height: 150px;
+    
 }
 /* Type input colors */
 .normal {
-    color: #9f9f8f;
+    background-color: #9f9f8f;    
 }
 .fire {
-    color:#ff4422;
+    background-color:#ff4422;
 }
 .water {
-    color:#3399ff ;
+    background-color:#3399ff ;
 }
 .electric {
-    color:#ffcc33  ;
+    background-color:#ffcc33  ;
 }
 .grass {
-    color:#77cc55;
+    background-color:#77cc55;
 }
 .ice {
-    color:#69cdff ;
+    background-color:#69cdff ;
 }
 .fighting {
-    color: #c16454 ;
+    background-color: #c16454 ;
 }
 .poison {
-    color:#aa5599;
+    background-color:#aa5599;
 }
 .ground {
-    color:#e0c266 ;
+    background-color:(#e0c266);
 }
 .flying {
-    color: #90a0ff;
+    background-color: #90a0ff;
 }
 .psychic {
-    color: #ff569a;
+    background-color: #ff569a;
 }
 .bug {
-    color: #b0c032;
+    background-color: #b0c032;
 }
 .rock {
-    color: #bbaa66;
+    background-color: #bbaa66;
 }
 .ghost {
-    color:#7272bf ;
+    background-color:#7272bf ;
 }
 .dragon {
-    color:#7766ee ;
+    background-color:#7766ee ;
 }
 .dark {
-    color:#775645 ;
+    background-color:#775645 ;
 }
 .steel {
-    color: #aaaabb;
+    background-color: #aaaabb;
 }
 .fairy {
-    color:#efa1ef ;
+    background-color:#efa1ef ;
 }
+
+
+
+
+
+
+normal : '#9f9f8f'
+fire : '#ff4422'
+water : '#3399ff'
+electric : '#ffcc33'
+grass : '#77cc55'
+ice : '#69cdff'
+fighting : '#c16454'
+poison : '#aa5599'
+ground : '#e0c266'
+flying : '#90a0ff'
+psychic : '#ff569a'
+bug : '#b0c032'
+rock : '#bbaa66'
+ghost : '#7272bf'
+dragon : '#7766ee'
+dark : '#775645'
+steel : '#aaaabb'
+fairy : '#efa1ef'
